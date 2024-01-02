@@ -1,9 +1,9 @@
 import numpy as np
-import pickle
+import joblib
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+loaded_model = joblib.load(open('https://drive.google.com/file/d/14jh3wGPYvoJ2nT-NCOq5yP-P2luP_NyE/view?usp=drive_link', 'rb'))
 
 
 # creating a function for Prediction
